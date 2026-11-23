@@ -6,7 +6,15 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'brutal-sm': '2px 2px 0px 0px #0f172a',
+        'brutal': '4px 4px 0px 0px #0f172a',
+        'brutal-md': '5px 5px 0px 0px #0f172a',
+        'brutal-lg': '6px 6px 0px 0px #0f172a',
+        'brutal-xl': '8px 8px 0px 0px #0f172a',
+      },
+    },
   },
   plugins: [],
 };
